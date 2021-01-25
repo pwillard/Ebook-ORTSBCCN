@@ -5,11 +5,6 @@ font:
       bold: DIN-Bold.ttf
       italic: DIN-Italic.ttf
       bold_italic: DIN-BoldItalic.ttf
-    Georgia:
-      normal: georgia.ttf
-      bold: georgiab.ttf
-      italic: georgiai.ttf
-      bold_italic: georgiaz.ttf
     Pica:
       normal: pica.ttf
       bold: picabold.ttf
