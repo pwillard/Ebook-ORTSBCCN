@@ -1,0 +1,49 @@
+
+
+== Appendix
+
+=== Flat Car reference
+
+*	ATTX - 75' all purpose flatcar (center and side tiedowns)
+*	BTTX - 89' flatcar equipped with bi-level auto rack)
+*	CTTX - 89' low level flatcar equipped with partially enclosed autorack
+*	DTTX - 265' Five platform, articulated well-type COFC car capable of carrying double stack containers
+*	ETTX 89'4" low level flatcar equipped with totally enclosed tri-level autorack
+*	FTTX 89'4" flatcar equipped with tie down devices for loading automobile or truck frames
+*	GTTX 85' and 89' General American built flat car equipped with collapsible hitches and bridge plates for transportation of trailers
+*	HTTX 60' Flatcar equipped with 38 heavy duty chains, snubbers and turnbuckles for carrying earthmoving equipment
+*	ITTX 89'4" flatcar equipped with special fold away pedestals and 62 tie down winches with chains and bridge plates for carrying trailer tractors saddle back style.
+*	JTTX 50 - 89'4" flatcar with misc devices applied for lessor special service
+*	KTTX 89'4" "Twin-45" standard level flat car with fixed hitches at both ends for handling two 45' trailers back to back (over head loading only)
+*	LTTX 89' Low level flatcar equipped with collapsible hitches and bridge plates.
+*	MTTX 60-85' 60 foot flatcar with stake pockets for gen service or 85' flatcar with 16 stake pockets, 8 per side for tansporting long pipe.
+*	NTTX 249' 5-unit articulated COFC car for transporting containers (spine car)
+*	OTTX 60' Flat car equipped with 36 chains, with snubbers each secured to movable and retractable tie down winches in for longitudinal channels for transporting agricultural equipment
+*	PTTX 60' flat car equipped with bulkheads space 48'6" apart for transporting plywood and wallboard etc.
+*	RTTX 89'4" "Twin-45/Tripple 28" standard level flatcar with fixed hitches on ends of car and retractable hitch at center of car. For handling two 45' or three 28' trailers (overhead loading)
+*	STTX 89'4" "Twin-45" standard level flat car for handling two 45' trailers, equipped with sliding bridge plates for circus style loading
+*	TTAX 89'4" Standard level flat car equipped with foldaway container pedestals and hitches for TOFC and/or COFC service.
+*	TTBX 89'4" flat car equipped with bi-level auto rack, rack can be either open or shielded on the sides but does not have roof or doors.
+*	TTCX 60' and 89' flat car equipped with container pedestals for COFC service.
+*	TTDX 89'4" flatcar equipped with 16 tie down winches with chains and bridge plates for transporting military vehicles
+*	TTEX 181'9" two unit TOFC car for hauling four 45' trailers or three 57' trailers (over head loading only)
+*	TTFX 187'6" four platform TOFC car capable of carrying four 45-trailers
+*	TTGX 89'4" flatcar equipped with totally enclosed bi-level auto racks
+*	TTHX 60' 60-foot flat car equipped with 18 heavy duty chains anchored to stake picket castings
+*	TTJX 68' 68-foot 100-ton flatcar equipped with 22 screw type tie-down devices and stake pockets.
+*	TTKX 89' flatcar equipped with hinged "B" deck tri-level auto rack. Rack can be either open or shielded on the sides but doesn not have roof or end doors
+*	TTLX 89' "Twin-45" low level flatcar specially equipped by participant railroads with container pedestals or fixed hitches for assigned corridor.
+*	TTMX 68' 68-foot 100-ton flatcar equipped with stake pockets and lading strap anchors for general service
+*	TTNX 89'4" flat car equipped with bi-level auto rack without end doors but with sides and roof panels.
+*	TTPX 68' 68-foot flat car equipped with bulkheads spaced 62 feet apart and 34 transverse tied down anchors with chains used for transporting plywood etc.
+*	TTRX 89'4" flatcar equipped with fixed tri-level rack without a hinged "B" deck. Rack can be either open or shielded on the sides but does not have roof or door.
+*	TTSX 89'4" flat car equipped with coverless enclosed bi-level autorack.
+*	TTUX 50'6" Single platform TOFC car with single axle trucks capable of carrying one trailer 40-48 foot and up to 102-inches wide w/ nose mounted revering unit over head loading only.
+*	TTVX 89'4" Low level flatcar equipped with tri-level auto rack with shielded sides without end doors and without or without roofs
+*	TTWX 89'4" Twin-45 standard level flat car equipped with fold away container pedestals and hitches for TOFC and/or COFC service.
+*	TTX 50'-89' flatcar equipped with one or two hitches for TOFC service.
+*	TTXZ 64' to 76' 100-ton bulkhead car equipped with center partition and winch type tie down system for carrying lumber products.
+*	UTTX 256' Five platform articulated TOFC car capable of carrying one trailer per plat forum 40-48 feet and up to 102 inches wide w/ front mounted refridge unit, over head loading only
+*	VTTX 60' and 85' flatcar equipped with fixed container pedestals for COFC service only
+*	WTTX 89'4" "Twin-45" standard level flat car with two hitches for TOFC service
+*	XTTX 89'4" flat car equipped with 4 hitches for TOFC service

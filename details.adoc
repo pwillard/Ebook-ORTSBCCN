@@ -1,0 +1,155 @@
+== BACKGROUND 
+=== The {font} lettering font
+
+// NOTE: The FONT needs to be assigned in the proper YAML file and a copy needs to exist
+//       in the FONTS folder.
+
+[NOTE]
+This is a free font and cannot be sold or be part of a commercial product.
+
+This font was created using references from the Internet. It is based on various sources related to Google searches.
+
+Most of the reference materials are from RailRoad Picture Archives http://www.rrpicturearchives.net
+
+[IMAGE]
+image::images/nord.jpg[align=center]
+
+It is  intended that this font be used along with the glyphs that are part of RailTnk1 (also available here at HTTP://railsimstuff.com)
+
+
+// reference image 
+[IMAGE]
+image::images/Sta1.jpg[align=center]
+
+This lettering started as a request from Dave Edwards at http://www.Trainsim.com who wanted a better Straley Logo that allowed for a 2-color option.
+I had a few ideas for additional tank cars (such as various additional kaolin seen moving around the Southeast.  When I was working at the Scott Paper plant in Mobile, Kaolin cars were dumping slurry quite often.)
+
+Changes: Version 1.1 adds the ` key to create the modern "ACF" logo.
+
+[IMAGE]
+image::images/ADM.jpg[align=center]
+
+=== Disclaimer
+This ttf font is a best effort attempt at recreating a vector based image suite related to {comp}.  Some variances exist in real life and therefore there may be some discrepancies between what is supplied here and actual prototype references.
+
+== Font Usage 
+=== Installation
+The file is distributed as part of a ZIP file that includes this document as well as the font itself and other related documentation.
+
+The files need to be UNZIPPED from the distribution file into a temporary work area, like `C:\TEMP`. (I’ll assume that you used `c:\temp` from here on…) 
+
+You can often just double-click the TTF file and the system will provide an install option.
+
+Now you can install the font from the Windows `CONTROL PANEL`.  
+
+Your system may be different, but for Windows 7, you would select START {arrow} Settings {arrow} Control Panel {arrow} FONTS {arrow} FILE [pull down] {arrow} INSTALL NEW FONT
+
+From here you would select your new file `C:\temp\`*{font}*
+
+That’s it, the font is installed.
+
+[IMAGE]
+image::images/DBK.jpg[align=center]
+
+As with all other TTF fonts on your system, the {font} file enclosed within the ZIP file belongs in the FONTS folder of your windows operating system.  This is the only way this file would be useful.
+ 
+
+== Letter Set
+
+Logo and Details
+
+[IMAGE]
+image::images/railtnk2.png[align=center]
+
+Lowercase
+
+[.sample]#abcdefghijklmnopqrstuvwxyz#
+
+
+Numbers (For SHPX cars)
+
+[.sample]#0123456789#
+
+== Special Keys 
+
+The items below are the logo styles used by {comp} and the keys that insert them.
+
+[cols="50,20,30", options="header"]
+|===
+| Result  | Key | Description 
+
+| [.sample]#+#           | + | Gramps
+| [.sample]#,#           | , | Citgo Single Color
+| [.sample]#/#           | / | SHPX
+| [.sample]#:#           | : | HUBER LOGO
+| [.sample]#;#           | ; | JM HUBER Lettering
+| [.sample]#<#           | < | WIlliams (White)
+| [.sample]#>#           | > | Williams (Blue Outline)
+| [.sample]#=#           | = | Uni-Temp Stencil for ADM
+| [.sample]#?#           | ? | OLin Chemical
+| [.sample]#@#           | @ | ADM Corm Sweeteners
+| [.sample]#A#           | A | ADM Logo (White - Fill with Blue)
+| [.sample]#B#           | B | ADM Corn Circle (Yellow)
+| [.sample]#C#           | C | WBB United Clays Logo
+| [.sample]#D#           | D | United Clays
+| [.sample]#E#           | E | Staley Single Color
+| [.sample]#F#           | F | Staley Logo Vertical 'S' logo
+| [.sample]#G#           | G | Staley Logo Horizontal 'S' logo
+| [.sample]#H#           | H | Staley Lettering
+| [.sample]#I#           | I | Hooker (Use for White & Black Shadow)
+| [.sample]#J#           | J | Hooker Foreground Logo (white)
+| [.sample]#K#           | K | Hooker Background logo(Black, do first)
+| [.sample]#L#           | L | New GAF logo
+| [.sample]#M#           | M | Old Gaf logo
+| [.sample]#N#           | N | Nord Logo (blue)
+| [.sample]#O#           | O | Nord Lettering (gold)
+| [.sample]#P#           | P | Nord Symbol (gold)
+| [.sample]#Q#           | Q | Nord Logo for Symbol (blue)
+| [.sample]#R#           | R | Dry Branch Kaolin Lettering (black)
+| [.sample]#S#           | S | Dry Branch Kaolin logo  
+| [.sample]#U#           | U | CITIES SERVICE logo (Citgo)
+| [.sample]#V#           | V | GULF #1 (Full Logo - guide)
+| [.sample]#W#           | W | Gulf #2 (Lettering)
+| [.sample]#X#           | X | Gulf #3 (orange fill)
+| [.sample]#Y#           | Y | Gulf #2 (full fill background) 
+| [.sample]#Z#           | Z | LD LMT 195500 
+| [.sample]#{bleft}#     | [ | LD LMT 200100 
+| [.sample]#{bslash}#    | {bslash} | NEW 7-00 
+| [.sample]#{bright}#    | ] | LD LMT 221500
+| [.sample]#_#           | _ | Clay Slurry (Underscore) 
+| [.sample]#{BL}#        | {BL} | Legacy GULF (outline - use orange fill) 
+| [.sample]#{BR}#        | {BR} | Legacy Gulf
+| [.sample]#{bar}#       | {bar} | Leased to Farmland Industries
+| [.sample]#~#           | ~ | NEW 11-1999 (Tilde Key)
+| [.sample]#{gr}#           | {gr} The `grave` or back-tick key. (It's on the same U.S. computer keyboard key as the `tilde` {tilde}.) | Modern ACF Logo 
+|===
+
+== Special instructions
+
+Some symbols require multiple colors and of course fonts are single color.  This means that some shapes are broken up into multiple symbols to allow for additional colors to be added to create he final result.
+
+For the 2 color Staley, for example, the stand-alone S shapes are vertical and horizontal and it is up to you to carefully align the two differenty color shapes to get the correct result.
+
+Additionally, for the Hooker Logo, you need to add a black shadow using the shapes provided, then cover them with a white color of the shapes to create the shadow effect.
+
+For the Williams logo, add a WHITE background using the "<" key and then change the font color to blue and align the blue outline with the ">" key.
+
+The Gulf Logo's are also multi-pass if you are aiming for a full color logo but you should be able to figure it out.
+
+For ADM, its up to you to fill in the blue in the "ADM" letters after placing the WHITE outline.
+
+== Permission
+
+This is a copyrighted free font.  It is not public domain. It may not be edited, altered, or manipulated in any way, or used in part or incorporated into any other commercial graphic material without approval from the font author. 
+
+Give Proper Credit when used.  
+
+This font is licensed under CC-BY-NC 4.0 US   
+
+This means that you are not allowed to remove creator credits and are not allowed to use it commercially. 
+
+
+
+Pete Willard	www.railsimstuff.com  petewillard@gmail.com
+
+
