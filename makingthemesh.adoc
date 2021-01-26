@@ -520,6 +520,9 @@ Since I edited the ADD ON to export a `.DDS` instead of `.ACE`, my `.S` file has
     )
 ----
 
+Due to this one change, I can use my current master texture file, which I edit in PSD format to keep layers intact, and just save it from PAINT.NET as a `.DDS` file natively.   As a result, I do a minimal amount of after-the-fact editing.  To work in BLENDER, I save the `PSD` file as a `PNG` file and to work with {or}, I save a copy of the `PSD` file as a `DDS` file.
+
+I then copy the contents of the project's `FINAL` folder into my {or} `trains` content folder for testing.  I have eliminated the need to edit the `S` file or do a texture file conversion (like use MakeAce).
 
 When the `Blender Exporter for MSTS` generates output files, you would tell it to export to your `project\final` folder. It will only create the `S` file and by default it assumes you are creating .`ACE` files. If you are felling really brave... you have the option of making the exporter export the `.DDS` extension instead of `.ACE` to save you from editing the `S` file directly on every export.
 
