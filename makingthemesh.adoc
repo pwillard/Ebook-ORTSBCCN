@@ -713,7 +713,7 @@ Now, it might seem intuitive to just use the basic outline we have now, insert a
 
 image:images/ex2_2.JPG[]
 
-* Use `BOX` select to chose the central vertices and shift them upward to mat the roof angle, kbd:[G] kbd:[Z] 
+* Use `BOX` select to chose the central vertices and shift them upward to match the roof angle, kbd:[G] kbd:[Z] 
 * Switch to Face mode, kbd:[3]
 
 image:images/ex2_3.JPG[]
@@ -736,7 +736,7 @@ ONLY the middle vertices will reach the ground, as the side vertices still have 
 image:images/ex2_8.JPG[] Some what hard to see, sorry
 
 *  kbd:[Z] and select (WIREFRAME), using `Wireframe/X-Ray mode`, switch to *vertex edit* mode with KBD:[1] and select all of the bottom vertices. 
-* Type: kbd:[S] kbD:[Z] kbd:[0] to flatten out the vertices on the bottom. 
+* Type: kbd:[S] kbd:[Z] kbd:[0] to flatten out the vertices on the bottom. 
 
 NOTE: 
 This is a nice magical incantation to align vertices to an axis, 
