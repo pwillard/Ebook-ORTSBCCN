@@ -738,8 +738,8 @@ image:images/ex2_8.JPG[] Some what hard to see, sorry
 *  kbd:[Z] and select (WIREFRAME), using `Wireframe/X-Ray mode`, switch to *vertex edit* mode with KBD:[1] and select all of the bottom vertices. 
 * Type: kbd:[S] kbd:[Z] kbd:[0] to flatten out the vertices on the bottom. 
 
-NOTE: 
-This is a nice magical incantation to align vertices to an axis, 
+[TIP] 
+kbd:[S] `X`,`Y` or `Z` kbd:[0] is a nice magical incantation to remember to align vertices to a specified axis
 
 image:images/ex2_9.JPG[]
 
