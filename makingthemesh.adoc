@@ -715,12 +715,12 @@ Key items to take away from exercise #2
 
 ==== Building the General Shape
 
-image:images/40x80-Warehouse.jpg[]
+image:images/enginehouse.jpg[]
 
 Let's say we are modeling a building.   I'm thinking... 2 stall engine house  40' x 80', and 20' tall with two 12'x18' garage doors and standard metal door with an office window.
 
 I will use this for a background image.
-image:images/enginehouse.jpg[]
+image:images/40x80x20.jpg[]
 Apologies for the terrible image.
 
 ==== Setup
