@@ -41,7 +41,7 @@ UV::    UV is the 3D modeling process of projecting a 2D image to a 3D model's s
 Manifold shape::   A manifold shape is a 3d object that considered to be water tight.  The vertices, faces and edges are aligned and connected in such a way that if you poured water into to the INSIDE of the object, none would leak out.  A default `cube` primitive is an example a manifold shape. 
 
 ENG FIle::
-    A definition of 
+    A definition of -- `more work here  (A lot actually)`
 
 
 === What you need to make ORTS 3D Modeled content:
@@ -66,7 +66,7 @@ ENG FIle::
 
 * 3d Modeler: _Blender 2.83.10
 * Bitmap tool: PaintShopPro Version 7, paint.net or Photoshop CS2
-* UV/Shader tool: _Substance Painter_ (optional)
+* UV/Shader tool: Blender has one
 * Text Editor: _Microsoft Visual Studio Code_ 
 * Metric Conversion Calculator (I have one built into hand held calculator, but you can use Google)
 * A Scale calculator: Converting dimensions from a scale drawing. (there is on on my website at http://www.railsimstuff.com ) 
@@ -151,6 +151,9 @@ Models of rolling stock and signals can take advantage of a few features which a
 While I'm not going to create a full guide to `eng` and `wag` files here in this document, we will need to create a working file if we plan to add content to {OR}.  Peter Newell's website has an in-depth look into creating good `ENG` and `WAG` files for {OR}.footnote:[https://www.coalstonewcastle.com.au/physics/format/]
 
 === Various General Notes about Content Creation
+
+`Ok, a comprehensive collection of ENG WAG file stuff should be here...   todo.`
+
 
 [.lead]
 An interesting discussion occurred in 2017 about making these files better and more useful in the post-Microsoft Train Simulator world. 

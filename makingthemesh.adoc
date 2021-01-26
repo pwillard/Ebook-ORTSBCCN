@@ -283,6 +283,13 @@ This is a quick tutorial on general model building.   To get started, we are mak
  * We only need a few general dimensions.  
  * We will re-make my first BLENDER project for MSTS;  The Jersey Barrier, 12', by 42" by by 32". 
 
+Key items to take away from exercise #1
+
+* Object and View Manipulation
+* Basic Edit Tools
+* UV Texture Mapping
+
+
 [NOTE]
 For added clarity on printed copies, I've switched to a high contrast theme in BLENDER Preferences.
 
@@ -644,11 +651,19 @@ It will fix the UVMAP naming on all objects for you.
 
 == Model Exercise #2
 
-== Advanced Modeling
+=== Advanced Modeling 
 
-=== Building the General Shape
+Key items to take away from exercise #2
+
+* Interiors
+* Glass
+* Texture preparation
+
+==== Building the General Shape
 
 Let's say we are modeling a building.  
+
+
 
 I'm thinking... 2 stall engine house  40' x 80', and 20' tall with two 12'x16' garage doors and standard metal door with an office window.
 
