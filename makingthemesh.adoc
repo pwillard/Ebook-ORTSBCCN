@@ -795,6 +795,7 @@ image:images/ex2_10.JPG[]
 
 * kbd:[TAB] back to `OBJECT MODE` and use Solid View, kbd:[Z] and select (SOLID), to view the result in greater detail.
 
+===== Making the Doors
 
 
 
@@ -806,11 +807,12 @@ image:images/ex2_10.JPG[]
 
 
 
+
+=== Importing the Background Images
 
 [NOTE]
 Much of my previous content was created using Amabilis 3D Canvas modeling software. It was rather difficult to create and use good background images, so I seldom used this method.  With BLENDER, the process is much easier and I highly recommend it. 
 
-=== Importing the Background Images
 
 [TIP]
 You should pre-determine the center-point of each view and align them with the axis lines in BLENDER.

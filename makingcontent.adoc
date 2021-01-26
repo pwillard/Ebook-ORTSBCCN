@@ -12,7 +12,7 @@ Since this tutorial will be about using Blender, other 3d modeling tools will no
 
 Alpha:: A bit map with a portion of the image that is masked-out, making the location appear see-though in the image.
 
-Mesh::  A 3D Model "shape" made up of 1 or more "faces"
+Mesh::  A 3D Model "shape" made up of 1 or more "faces" without texture
 
 Face::  A surface created by 3 or more vertices.
 
@@ -42,6 +42,20 @@ Manifold shape::   A manifold shape is a 3d object that considered to be water t
 
 ENG FIle::
     A definition of -- `more work here  (A lot actually)`
+
+Shape:: A three dimensional object that is finished in all aspects and ready to be placed within the game environment.
+
+Pivot Point:: A position used to align the shape to its environment, also known as origin.
+
+Hierarchy:: The assignment of parenting of objects within a shape so that an objects children will only move when they do but they can move independently too but are always affected by their parent.
+
+Material:: A material is assigned a texture with additional components sudh as lighting palette and shading.
+
+Smoothing:: A smoothing group is a shade value that allows individual polygons to be lit by the game environment in different ways.
+
+Distance Levels:: A range of shapes originating from the one shape allowing polygon count to be kept low at further viewing distances.  Often called LOD.
+
+
 
 
 === What you need to make ORTS 3D Modeled content:
@@ -140,6 +154,29 @@ In ORTS, it appears that only the WHEEL and BOGIE prefix is required.
 
 [WARNING]
 Some MSTS documentation leads you to believe that a third bogie is possible in MSTS - it isn't.  BUT, if you are modeling specifically for {or}, then you should know that the simulator will properly animate anything with the correct BOGIE and WHEEL prefixes as long as you follow the guidelines for parenting and local pivot origins.
+
+Microsoft recommended the following topology for tye Acela as an example:
+
+----
+Main Engine	
+PantographTop1				
+		PantographBottom1			
+	PantographTop2					
+		PantographBottom2
+	Bogie1	
+		Wheels11
+		Wheels12
+	Bogie2	
+		Wheels21
+		Wheels22
+	MirrorRight1	
+	MirrorLeft1
+	WiperArmLeft1
+		WiperBladeLeft1
+	WiperArmRight1
+		WiperBladeRight1
+----
+
 
 
 
@@ -257,3 +294,4 @@ I'm not sure how much this applies specifically to MSTS and not {or}
 
 *Splitting car sides into multiple sections is not recommended, as it adds unnecessary mesh divisions and UV coordinates. It may be necessary for very long cars, such as auto-racks, however, for most cars of 60 feet or less, it's really not necessary if you plan ahead. Using the top half of a texture sheet for one car and the bottom half for another creates a large, rectangular area to work with and allows for multiple cars to use a single texture sheet. Remember, Open Rails is sensitive to both drawCall counts and the total number of images across a train, so putting multiple cars in one texture isn't actually a bad idea.
 
+Microsoft recommended using SQUARE texture shapes that corresponded to a specific evenly sized shapes, like 512x512, 256x256, 128x128, etc.  This limitation no longer applies in {or} and you can reasonably use a 2048x1024 sized file if you desire.
