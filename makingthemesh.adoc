@@ -709,10 +709,11 @@ Now, it might seem intuitive to just use the basic outline we have now, insert a
 * Press kbd:[TAB] to reach `EDIT MODE` and kbd:[1] for vertex select and kbd:[Z] and select (WIREFRAME).
 * Add a vertical `Loop Cut` kbd:[CTRL,R] in the center.
 * `BOX` select the bottom vertices and shift kbd:[G] kbd:[Z] to be about the right height for the roof overhang. 
-* Use `BOX` select to chose the central vertices and shift them upward to mat the roof angle, kbd:[G] kbd:[Z] 
+
 
 image:images/ex2_2.JPG[]
 
+* Use `BOX` select to chose the central vertices and shift them upward to mat the roof angle, kbd:[G] kbd:[Z] 
 * Switch to Face mode, kbd:[3]
 
 image:images/ex2_3.JPG[]
@@ -725,25 +726,28 @@ image:images/ex2_4.JPG[]
 
 image:images/ex2_6.JPG[]
 
-* With these inset faces still selected switch to front view kbd:[KEYPAD 1] use the Extrude option kbd:[E] kbd:[Z] and drag the inset faces to ground level using the central vertices as a guide.
+* With these inset faces still selected switch to front view kbd:[KEYPAD 1] use the Extrude option kbd:[E] kbd:[Z] and drag the inset faces to ground level using the central vertices as a guide. Note: I used `solid view` mode for clarity. 
 
 image:images/ex2_7.JPG[]
 
 [WARNING]
-ONLY the sides will reach the ground, as the middle vertices still have the roof angle.
+ONLY the middle vertices will reach the ground, as the side vertices still have the roof angle and will temporarily dip below ground.
 
 image:images/ex2_8.JPG[] Some what hard to see, sorry
 
-* In `Wireframe/X-Ray mode`,  switch to vertex exit mode with KBD:[1] and select all of the bottom vertices. 
-* Type: kbd:[S] kdb:[Z] kbd:[0] to flatten out the vertices on the bottom.
+*  kbd:[Z] and select (WIREFRAME), using `Wireframe/X-Ray mode`, switch to *vertex edit* mode with KBD:[1] and select all of the bottom vertices. 
+* Type: kbd:[S] kbD:[Z] kbd:[0] to flatten out the vertices on the bottom. 
+
+NOTE: 
+This is a nice magical incantation to align vertices to an axis, 
 
 image:images/ex2_9.JPG[]
 
-* While still in front view ( kbd:[KEYPAD 1] ), Shift the bottom vertices back to ground level with kbd:[G] kbd:[Z] as needed  
+* While still in front view ( kbd:[KEYPAD 1] ), Shift all of the bottom vertices back to ground level with kbd:[G] kbd:[Z] as needed  
 
 image:images/ex2_10.JPG[]
 
-* kbd:[]TAB back to `OBJECT MODE` and use Solid View, kbd:[Z] and select (SOLID), to view the result in greater detail.
+* kbd:[TAB] back to `OBJECT MODE` and use Solid View, kbd:[Z] and select (SOLID), to view the result in greater detail.
 
 
 
