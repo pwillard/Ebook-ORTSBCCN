@@ -497,7 +497,20 @@ We now see the object with the material applied.
 
 image:images/UVWRAP3.JPG[align=center]
 
-This model is ready for the MSTS exporter.
+This model is now ready for the MSTS exporter.
+
+[NOTE]
+The MSTS Materials shader properties provided by the exporter follow the standard Material options available in MSTS:
+Solid – A material that is using an opaque texture only.
+Trans – A material that is using a transparent texture only.
+Alpha – A material that is using a semi-transparent texture only.
+Specularity – A lighting highlight effect that gives the illusion of shine.
+Gloss – A material that is using a glossmap, which is an artificially created reflection.
+Cruciform – A tree shape that requires it’s own material so that it can prioritize with the terrain and the surrounding objects.
+FullBright – A material usually assigned to the inside of trains so they never get dark.
+HalfBright – The same as full bright but at half the intensity.
+Dark Shade – The opposite to full bright, it reduces the overall intensity of light.
+
 
 * In `OBJECT MODE`, under the Materials property panel, scroll down to the bottom to where the MSTS exporter section is, titled: MSTS Materials.  Update the `BaseColorFilePath` (using the Folder Button) to select the texture of the highlighted object we have been working on. 
 
