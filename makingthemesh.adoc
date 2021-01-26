@@ -657,7 +657,7 @@ It will fix the UVMAP naming on all objects for you.
 
 == Model Exercise #2
 
-=== Advanced Modeling 
+=== Intermediate Modeling 
 
 Key items to take away from exercise #2
 
@@ -665,13 +665,93 @@ Key items to take away from exercise #2
 * Glass
 * Texture preparation
 
+* Back Ground Images
+
 ==== Building the General Shape
 
-Let's say we are modeling a building.  
+image:images/40x80-Warehouse.jpg[]
+
+Let's say we are modeling a building.   I'm thinking... 2 stall engine house  40' x 80', and 20' tall with two 12'x18' garage doors and standard metal door with an office window.
+
+I will use this for a background image.
+image:images/40x80x20.jpg[]
+Apologies for the terrible image.
+
+==== Setup
+Use the file structure that was outlined earlier.
+
+----
+twostall
+twostall\final
+twostall\mesh
+twostall\objects
+twostall\textures
+twostall\tmp
+twostall\reference
+----
+
+* Add the Background image to `reference` folder
+
+* Adjust the default cube Dimensions to be 40x80x20  (X=12.192, Y=24.384, Z=6.096). This will be the basic shape.
+
+image:images/ex2_1.JPG[]
+
+* Save the `twostall.blend` file under `twostall\mesh` folder.
+
+* Switch to front view kbd:[KEYPAD 1] and select `ADD->IMAGE->BACKGROUND` and chose the image from `twostall\reference` we saved their earlier.
+
+* Position and scale it to match the basic shape, but not the roof.
+
+Now, it might seem intuitive to just use the basic outline we have now, insert a `loop cut` on the top and shift the top vertices upward to make the  roof shape.  Here is why that is the hard way. You won't have a roof overhang and all roof edges have an overhang.  We will instead shift the current shape do it is only as tall as the roof overhang.
+
+* Press kbd:[TAB] to reach `EDIT MODE` and kbd:[1] for vertex select and kbd:[Z] and select (WIREFRAME).
+* Add a vertical `Loop Cut` kbd:[CTRL,R] in the center.
+* `BOX` select the bottom vertices and shift kbd:[G] kbd:[Z] to be about the right height for the roof overhang. 
+
+image:images/ex2_2.JPG[]
+image:images/ex2_3.JPG[]
+
+* Shift your view to be looking to the underside of the roof shape.
+* Switch to `OBJECT MODE` kbd:[TAB] and apply the scale with `OBJECT->APPLY->SCALE`
+
+
+image:images/ex2_4.JPG[]
+
+* In face select mode, kbd:[3], select the underside faces and use kbd:[I] to inset the selected faces to the amount of overhang that looks right.
+
+image:images/ex2_6.JPG[]
+
+* With these inset faces still selected switch to front view kbd:[KEYPAD 1] use the Extrude option kbd:[E] kbd:[Z] and drag the inset faces to ground level using the central vertices as a guide.
+
+image:images/ex2_7.JPG[]
+
+[WARNING]
+ONLY the sides will reach the ground, as the middle vertices still have the roof angle.
+
+image:images/ex2_8.JPG[] Some what hard to see, sorry
+
+* In `Wireframe/X-Ray mode`,  switch to vertex exit mode with KBD:[1] and select all of the bottom vertices. 
+* Type: kbd:[S] kdb:[Z] kbd:[0] to flatten out the vertices on the bottom.
+
+image:images/ex2_9.JPG[]
+
+* While still in front view ( kbd:[KEYPAD 1] ), Shift the bottom vertices back to ground level with kbd:[G] kbd:[Z] as needed  
+
+image:images/ex2_10.JPG[]
+
+* kbd:[]TAB back to `OBJECT MODE` and use Solid View, kbd:[Z] and select (SOLID), to view the result in greater detail.
+ 
 
 
 
-I'm thinking... 2 stall engine house  40' x 80', and 20' tall with two 12'x16' garage doors and standard metal door with an office window.
+
+
+
+
+
+
+
+
 
 [NOTE]
 Much of my previous content was created using Amabilis 3D Canvas modeling software. It was rather difficult to create and use good background images, so I seldom used this method.  With BLENDER, the process is much easier and I highly recommend it. 
