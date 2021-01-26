@@ -32,9 +32,9 @@ NGON::  Is a face with 5 or more vertices.
 
 Hard Surface Modeling:: A generalized term for modeling objects that represent things like vehicles, buildings, weapons, roads. These make use of the more standard mesh techniques and objects like cube, cylinder, plane, cone, torus etc.
 
-Normal:: A normal is a vector in 3D-space that is perpendicular to two other vectors (determined by two edges of a face)footnote:[See Wiki https://en.wikipedia.org/wiki/Normal_(geometry) ] A Normal controls the facing direction if applied textures.
+Normal:: A normal is a vector in 3D-space that is perpendicular to two other vectors (determined by two edges of a face)footnote:[See Wiki https://en.wikipedia.org/wiki/Normal_(geometry) ] A Normal controls the facing direction of applied textures.
 
-Organic Modeling:: Modeling techniques that use a more sculpted approach for things like animals, people, plants, trees, and even automobiles. There are specialized modeling tools and techniques for this including _surface nurbs_ (Non-uniform rational basis spline, Google it ) and the Sculpting tab in Blender.
+Organic Modeling:: Modeling techniques that use a more sculpted approach for things like animals, people, plants, trees, and even automobiles. There are specialized modeling tools and techniques for this including _SURFACE NURBS_ (Non-uniform rational basis spline, Google it ) and the Sculpting tab in Blender.
 
 UV::    UV is the 3D modeling process of projecting a 2D image to a 3D model's surface for texture mapping. The letters "U" and "V" denote the axes of the 2D texture because "X", "Y", and "Z" are already used to denote the axes of the 3D object in model space, while "W" (in addition to XYZ) is used in calculating quaternion rotations, a common operation in computer graphics.
 
@@ -125,7 +125,7 @@ The Main body part does not need to be called MAIN. Modelers have been using tha
 Be careful with selecting all objects in object mode and then applying "all transformations", as it will reset all objects to have their origin (pivot point) become `world origin`. This would change the pivot points of the bogies and wheels.
 
 === Standard 2 Axle Bogies
-If you are Looking at the model from the Left Side View, the forward direction of the model is facing right.  Starting at the right, the bogies and wheels are named according to the diagram above, where associated WHEELS parented to the related BOGIE1 or BOGIE2. 
+If you are looking at the model from the Left Side View, the forward direction of the model is facing right.  Starting at the right, the bogies and wheels are named according to the diagram above, where associated WHEELS parented to the related BOGIE1 or BOGIE2. 
 
 If an additional axle is needed, use WHEELS13 or 23 located behind the bogie pivot relative to forward motion and shift wheel set 2 to the center of the related BOGIE. Its is important that the naming sequence remains (11 to 23) as shown in the diagram or wheels will turn backward and shift improperly in MSTS. 
 

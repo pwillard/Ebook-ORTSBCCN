@@ -36,7 +36,7 @@ For large panels, though, a minimal amount is necessary. A flat plate like a lar
 * Find design references (Blueprints, Scale Drawings). Referring to back issues of model railroading magazines can be helpful.  There are also some railroad cyclopedia books for sale that were published by Model Railroader Magazine. 
 * Create a collection of reference images, if doing modern content, grab your camera and snap some of your own references. There are a few railroad picture sites that are highly useful as well. (https://www.railpictures.net/, http://www.rr-fallenflags.org/) 
 * Determine which images you will use for background references in BLENDER.  You should have available at least side and front images.  In some situations, you can use the same image for both if the views are present.
-* When inserting background reference drawings into BLENDER, it is not critical that you match up the image size to equal world space dimensions, but it can save a lot of re-scaling step later.  If modeling a freight car, for example, figure out the distance between truck centers in meters and match it up using the grid in the 3D view.
+* When inserting background reference drawings into BLENDER, it is not critical that you match up the image size to equal world space dimensions, but it can save a lot of re-scaling steps later.  If modeling a freight car, for example, figure out the distance between truck centers in meters and match it up using the grid in the 3D view.
 
 === Some things I will miss about using 3D Canvas
 
@@ -87,7 +87,7 @@ As I said, BLENDER isn't the easiest program to learn, but even a first-week nov
 |   kbd:[E] | Extrude - To Pull or Push a Face, Edge or Vertex
 |===
 
-The can manipulate basic objects. By using these keys and following them with additional commands like kbd:[X], kbd:[Y], or kbd:[Z] 
+These keys can manipulate basic objects. By using these keys and following them with additional commands like kbd:[X], kbd:[Y], or kbd:[Z] 
 you can constrain actions to the specified axis.  By pressing kbd:[SHIFT] prior to an axis key, you remove it from the list.
 
 Example::  By pressing the sequence:  kbd:[G] kbd:[SHIFT] kbd:[X] you will be able to move the selected item in the `Y` and `Z` axis, but not `X`.
@@ -103,7 +103,7 @@ I am using a high contrast theme here for better printed output.
 
 image:images/mainscreen.png[]
 
-The 3D cursor is where any new object will be placed. By default it is at world origin `0,0,0` but can easily be moved to new locations.  The position of the 3D Cursor can be manipulated using the cursor widget on the left side panel. It is available in both object and EDIT MODE.  You can also place the 3d cursor position using the kbd:[Shift,S] `SNAP` Pie Menu.
+The 3D cursor is where any new object will be placed. By default it is at world origin `0,0,0` but can easily be moved to new locations.  The position of the 3D Cursor can be manipulated using the cursor widget on the left side panel. It is available in both OBJECT and EDIT MODE.  You can also place the 3d cursor position using the kbd:[Shift,S] `SNAP` Pie Menu.
 
 <<<
 You can hide or reveal the Number Panel on the right side using  kbd:[N] key.   (Not shown above)
@@ -142,7 +142,7 @@ Toggle Perspective and Orthographic view modes:: kbd:[Keypad 5]
 
 
 [TIP]
-Most of the time, you will be using the default `BOX SELECT` mode of the Arrow (Select) tool.  Use the kbd:[B] to switch back to `BOX SELECT` if you end up changing it from default. Other modes include `CIRCLE SELECT` kbd:[C] (Note, use `RMB` to exit `CIRCLE SELECT` mode), and `LASSO SELECT` kbd:[CTRL,RMB].  The kbd:[W] will cycle between modes sequentially.  You can also *INVERT* selections by using  kbd:[CTRL,I] and add to an existing selection by holding kbd:[SHIFT] and selecting with `LMB`.
+Most of the time, you will be using the default `BOX SELECT` mode of the Arrow (Select) tool.  Use the kbd:[B] to switch back to `BOX SELECT` if you end up changing it from default. Other modes include `CIRCLE SELECT` kbd:[C] (Note, use `RMB` to exit `CIRCLE SELECT` mode), and `LASSO SELECT` kbd:[CTRL,RMB].  The kbd:[W] key will cycle between modes sequentially.  You can also *INVERT* selections by using  kbd:[CTRL,I] and add to an existing selection by holding kbd:[SHIFT] and selecting with `LMB`.
 
 image:images/Arrow.JPG[align="center", caption="Box Select"]
 *BOX SELECT ICON*
@@ -157,7 +157,7 @@ image:images/screenGismoJPG.JPG[align=center]
 <<<
 === Modeling Modes
 
-In BLENDER, there are 2 primary 3D model manipulation modes.  These are `OBJECT MODE` and EDIT MODE.   
+In BLENDER, there are 2 primary 3D model manipulation modes.  These are `OBJECT MODE` and `EDIT MODE`.   
 
 Use the kbd:[TAB] key to switch modes.
 
@@ -165,16 +165,19 @@ Use the kbd:[TAB] key to switch modes.
 
 image:images/objectmode.PNG[align=center]
 
-In this mode, you can select individual objects that make up your design so thay can be further manipulated in EDIT MODE.
+In this mode, you can select individual objects that make up your design so thay can be further manipulated in `EDIT MODE`.
 
 <<<
 
-EDIT MODE:: The *selected* item in `OBJECT MODE` becomes the focused object when moving to EDIT MODE. EDIT MODE is a focused mode and you will not accidentally select other parts of the model in this mode. This mode available for all object types that can be rendered, as it is dedicated to manipulating their “shape”. The EDIT MODE allows adjustment of Vertices, Edges and Faces for mesh object types as well as the control points for curves, surfaces and points.  
+EDIT MODE:: The *selected* item in `OBJECT MODE` becomes the focused object when moving to `EDIT MODE`. `EDIT MODE` is a focused mode and you will not accidentally select other parts of the model in this mode. This mode available for all object types that can be rendered, as it is dedicated to manipulating their “shape”. The EDIT MODE allows adjustment of Vertices, Edges and Faces for mesh object types as well as the control points for curves, surfaces and points.  
 
 [TIP]
-In EDIT MODE, the object selected will show Vertices, Edges and Faces.  Selected edges, vertices or faces will adopt a highlight color when selected. Also notice the larger tool set on the left compared to `OBJECT MODE`.
+In `EDIT MODE`, the object selected will show Vertices, Edges and Faces.  Selected edges, vertices or faces will adopt a highlight color when selected. Also notice the larger tool set on the left compared to `OBJECT MODE`.
 
 image:images/editmode.PNG[align=center]
+
+[NOTE]
+There are 3 sub-modes in `EDIT MODE`; kbd:[1] Vertex Edit, kbd:[2] Edge Edit and kbd:[3] Face Edit. 
 
 <<<
 
@@ -252,7 +255,7 @@ image:images/CustomSettings.PNG[]
 
 1. Create a new collection by clicking the box icon in the upper right with a plus sign on it. Create a new collection called `MAIN`. (All uppercase)
 2. Click the new collection `MAIN` and then create a new collection so it becomes a child collection under `MAIN` and call it `MAIN_0700` for LOD distance, or use an LOD distance value that makes good sense to you. 
-3. Now  click on `SCENE COLLECTION` at the top and create 2 new collectionS, call one `Camera` and the other `Lights`.
+3. Now  click on `SCENE COLLECTION` at the top and create two new collections, call one `Camera` and the other `Lights`.
 4. Drag and Drop the light OBJECT from 'Scene Collection' into `Lights` and then Drag and Drop the Camera object into `Camera`.
 5. Now you can save your `.blend` file as your default startup file and you will have the scene outline setup that will work with the MSTS exporter.
 6. Optional: If you are going to use the default cube, drag it from where it is to the MAIN collection.
@@ -266,7 +269,7 @@ image:images/MyCollection.JPG[]
 Here are some other key tips to setting up your workspace.  You can use the ADD-ONS tab in `EDIT->PREFERENCES->ADDONS` to install included (but not active) add-ons such as  `Add Curve: Extra Objects`, `Add Mesh: Extra Objects`, `Mesh Tools`, `Loop Tools`, `Node Wrangler`, `Bool Tool`.  
 
 [TIP]
-You can also got to "SYSTEM" section and increase your number of UNDO steps to 200.  Under `Themes->3d ViewPort`, you can scroll to the bottom and make your vertex sizes larger so they can be more easily seen. I normally use 5 for Vertex Size and `Face Dot Size`.  You can also adjust the color of the selected object and active object to make them stand out more.
+You can also got to the "SYSTEM" section and increase your number of UNDO steps to 200.  Under `Themes->3d ViewPort`, you can scroll to the bottom and make your vertex sizes larger so they can be more easily seen. I normally use 5 for Vertex Size and `Face Dot Size`.  You can also adjust the color of the selected object and active object to make them stand out more.
 
 [NOTE]
 You will also want to download and unzip the "BLENDER 2.8 to MSTS Exporter" from Elvas Tower and then read the instructions on how to install it. It also includes very fine instructions on how to use it.
@@ -296,7 +299,7 @@ For added clarity on printed copies, I've switched to a high contrast theme in B
 * Start with the default cube, and select it with `LMB`.
 * Shift it up 1 meter. kbd:[G] kbd:[Z] kbd:[1] kbd:[ENTER]
 * As an aid to modeling, pull out the right side number panel by pressing kbd:[N] 
-* Scale to 42"  (Z Height = 1.077m)  Press kbd:[S] kbd:[Z] and drag mouse to the correct size in in Z dimension or manually enter 1.07 in the Z dimension field.
+* Scale to 42"  (Z Height = 1.077m)  Press kbd:[S] kbd:[Z] and drag mouse to the correct size in the Z dimension or manually enter 1.07 in the Z dimension field.
 * Shift it back to ground level.  kbd:[Keypad 3] on keypad for side view, kbd:[G] key kbd:[Z], drag down to about ground level (Roughly: Locaton 0.52m in Z axis)
 
 image:images/JB0.JPG[]
@@ -362,7 +365,7 @@ Do you understand what happened?  We only selected the FRONT facing vertices! We
 image:images/MIRROR1.JPG[align=center]
 
 
-* kbd:[TAB] back to `OBJECT MODE` and with the current OBJECT selected and locate the `WRENCH` icon on the right panel on the screen. 
+* kbd:[TAB] back to `OBJECT MODE` and with the current OBJECT selected, locate the `WRENCH` icon on the right panel on the screen. 
 
 * From the `Add Modifier` dropdown menu, select `MIRROR` Modifier. You should see the section we deleted above come back into view since the `MIRROR` is using the `X` axis to mirror of the original object by default.  (See the Check Box that is already checked)
 
@@ -402,7 +405,7 @@ When you apply a modifier, you lose the ability to adjust it.  Prior to applying
 * We will select the visible edges of the shape.  You will need to `SELECT` multiple `EDGES` so here is what we will do. Hold kbd:[SHIFT] then select the TOP LEFT Edge, you will need to shift your view with the middle mouse button to get a good viewpoint for selection. The TOP EDGE will be selected... Now click the remaining "outside" edges while still holding kbd:[SHIFT]. 
 
 [NOTE]
-This creates a selection group. If you left click a face again without holding kbd:[SHIFT], you will lose the selection group and will need to reselect all the desired edges again. 
+This creates a selection group. If you left click an edge again without holding kbd:[SHIFT], you will lose the selection group and will need to reselect all the desired edges again. 
 
 image:images/outside.JPG[align=center]
 
@@ -452,7 +455,7 @@ image:images/uvedit1.png[]
 [WARNING]
 If nothing happens in the left `UV EDIT` window, you probably didn't have everything selected. 
 
-* Now, before you do anything else, locate the `UNWRAP`  tab at the bottom of the screen and adjust the margin value of 0.05.  The default 0.001 is just too small for our needs. This will give a greater separation between UV Islands.
+* Now, before you do anything else, locate the `UNWRAP`  tab at the bottom of the screen and adjust the margin to be a value of 0.05.  The default 0.001 is just too small for our needs. This will give a greater separation between te generated UV Islands.
 
 image:images/unwrap0.png[align=center]
 
@@ -462,7 +465,10 @@ image:images/unwrap0.png[align=center]
 
 * Choose  `Image Texture` and we will locate the Concrete texture we will use. (You can create your own or use the one I created for this)  
 
-* Under `BASE COLOR` you now see `+NEW` and `OPEN` icons.  Click `OPEN` and chose your texture file. The `UV SQUARE` background image in the UV Window should now display your image behind your `UV ISLANDS`.
+* Under `BASE COLOR` you now see `+NEW` and `OPEN` icons.  Click `OPEN` and chose your existing texture file. The `UV SQUARE` background image in the UV Window should now display your image behind your `UV ISLANDS`.
+
+[NOTE]
+The GITHUB page has a DEMO1.ZIP file that contains the concrete texture I used.
 
 image:images/UVWRAP1.JPG[align=center]
 
@@ -484,12 +490,14 @@ image:images/UVWRAP2.JPG[align=center]
 
 * Now we can return to the main modeling workspace and then change the viewport shader to Material Preview mode.  
 
-Material Preview 
+MATERIAL PREVIEW
 image:images/lookdev.jpg[]
 
 We now see the object with the material applied.
 
 image:images/UVWRAP3.JPG[align=center]
+
+This model is ready for the MSTS exporter.
 
 
 
@@ -513,7 +521,7 @@ A free and rather easy way of creating a collection of re-usable parts is to *CO
 
 * Open a fresh instance of BLENDER, clear out all unwanted default items from your scene and press kbd:[CTRL,V]
 
-* The copied object(s) will placed in your new blend file. Copy as many objects into this file as you need. It is best to avoid overlapping them. 
+* The copied object(s) will be placed in your new blend file. Copy as many objects into this file as you need. It is best to avoid overlapping them. 
 
 
 image:images/lib1.jpg[align=center]
@@ -525,11 +533,9 @@ image:images/lib1.jpg[align=center]
 * Choose `FILE -> DATA PREVIEWS -> BATCH GENERATE PREVIEWS` and chose the file name you used in the previous step.
 
 [NOTE]
-This will take a few moments and will present a console screen when complete.
+This will take a few moments and will present a console screen when complete. We are telling blender to create Object Icons in the saved file.
 
-* In the future, you just need to use `FILE->APPEND` option to insert the object into your current projects, but, the bonus is that you can select them using the `THUMBNAIL` option in the `FILE APPEND` menu,  so now you will know which part you are appending to your current `blend` file in a visual way.
-
-image:images/lib1.jpg[align=center]
+* In the future, you just need to use `FILE->APPEND` option to insert the object into your current projects, but, the bonus is that you can select them using the `THUMBNAIL` view option in the `FILE APPEND` menu,  so now you will know which part you are appending to your current `blend` file in a visual way.
 
 Choose append ans select `THUMBNAIL` view you will see file menu. 
 
