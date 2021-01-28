@@ -223,6 +223,8 @@ image:images/insetb.png[align=center]
 [TIP]
 When you use inset and the inset amount appears to be unevenly applied, you likely have not applied your scale transformations.  In other words, your scale values in the object transformation numbers panel are not all set to 1.00.  You correct this in `OBJECT MODE` by selecting `OBJECT->APPLY->SCALE` from the top menu. 
 
+[TIP]
+You might need to press kbd:[I] again to enable INDIVIDUAL ORIGINS if you notice that inset is not doing what you expect.
 
 <<<
 
