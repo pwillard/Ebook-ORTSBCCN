@@ -121,6 +121,75 @@ Blender will default to using your `DOCUMENTS` folder for Models and your `%APPD
 APP DATA is normally a hidden folder in your windows file explorer.  You can reach the folder from a command prompt by typing `cd %appdata%`
 
 
+=== Setting up our Blender environment
+
+There are some post installation steps we will follow to customize BLENDER for the kind of work we will be doing.  We will start on the main on-time splash screen where we will make one change.  We will change the kbd:[SPACE] key to perform `SEARCH` instead of `PLAY ANIMATION`.
+
+image::images/QuickSetup.jpeg[]
+
+So now we will go through the steps of customizing our PREFERENCES settings.  These are located under the `EDIT->PREFERENCES` menu pull-down on the top bar. (Gear Icon)
+
+* `THEMES->3D VIEWPORT`
+** Active Object color - I change this color to Green or Cyan for added visibility.
+** Active Object Selected color - I change this color to be a brighter version of the item above
+** Face Orientation Alpha - It's a bit easier to only see Inverted Normals as RED instead of also changing the outward facing normals to dark blue.  Change the Alpha value for the Blue to 0.
+** Change vertex size - All the way at the bottom of the list you can change vertex size.  If your screen resolution is high, making the vertex size 5 ot 7 can help with visibility.
+
+* `VIEWPORT`
+** SAMPLES - 16
+** ANISOTRIPIC - 4x
+ 
+* `SYSTEM`
+** Change UNDO steps to 200
+** Adjust CUDA settings to use GPU and Couplers
+
+* `ADD-ONS` (Search for an enable the following built-in items)
+** LoopTools
+** F2 
+** Edit Mesh Tools
+** Node Wrangler
+** Extra (CURVE/MESH) Objects
+
+* `ADD-ONS` (3rd-Party - free)
+**  Blender28toMSTS - S file Export (MSTS ORTS - V4.3)
+**  Briage28 - Train/Rail Simulator Export (Dovetail Games)
+**  mifthtools - Extra features, manual installation needed nd this is an optional add on.
+** 	Powersave - Available from: https://github.com/bonjorno7/PowerSave auto-save your blend files.
+
+Close out the `EDIT->PREFERENCES` menu. By default, it automatically saves your changes.
+
+Next, will will make changes to the header and properties panels near the top and right side of the screen respectively.
+
+* Gizmo settings
+** In the Gismo Drop Down menu, under object gizmos, enable MOVE with a checkbox. (Look for an arc with an arrow icon)
+
+* Shading settings
+** Under SOLID VIEWPORT SHADING (Solid Circle Icon and use pulldown on the right), change the following:
+*** Add Check-mark next to shadow
+*** Add Check-mark nest to cavity
+
+* Properties Panels in the lower right
+** `Render Properties`
+*** Render Engine - EEVEE
+**** RENDER 200 SAMPLES
+*** Render Engine - CYCLES
+**** RENDER 200 SAMPLES
+**** Light Paths: 6,3,3,4,4,0
+**** Film: transparent
+**** Performance: TILES-1024
+
+** `LAYER`
+*** De-Noising Data
+
+** HDRI 
+*** Shader Editor World
+**** CTRL+T Add Mapping Node, choose HDRI (I use abandoned slipway from hdrihaven)
+
+`FILE->DEFAULTS->SAVE STARTUP FILE-->confirm`
+
+
+
+
 
 <<<
 
