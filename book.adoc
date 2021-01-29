@@ -81,6 +81,16 @@ such damage. If you actually read all this, I salute you. You could have been mo
 productive with your time but chose not to be.
 
 
+=== Li­cense
+
+This work is li­censed un­der a creative commons attribution-sharealike 4.0 international license
+
+image:images/CC-BY-SA.svg[]
+
+
+
+
+
 
 == About This Document
 
@@ -94,7 +104,7 @@ I am not an expert.  I can best be described as a curious user and occasional co
 
 From 2002 until 2016, all of my 3rd party content releases have been for Microsoft Train Simulator using 3DCanvas (Ultimately renamed to 3D Crafter)
 
-Initially, I started with versions of Blender released before version 2.8 and it didn't seem to me to be very user-friendly. Due to the foereign and combersome nature of early Blender versions, I also didn't get very far with it.  When version 2.8 arrived, it was still hard to get started but it was a vast improvement.  Now, after seeing some of the basic modeling techniques available in Blender, I don’t think I will switch to a different 3D modeling tool anytime soon. 
+Initially, I started with versions of Blender released before version 2.8 and it didn't seem to me to be very user-friendly. Due to the foreign and uombersome nature of early Blender versions, I also didn't get very far with it.  When version 2.8 arrived, it was still hard to get started but it was a vast improvement.  Now, after seeing some of the basic modeling techniques available in Blender, I don’t think I will switch to a different 3D modeling tool anytime soon. 
 
 
 
@@ -143,7 +153,7 @@ If you have prior experience with GMAX, Train Sim Modeler or 3D Canvas, it will 
 
 === Organization of This Document
 
-As the title implies, this document is based on a collection notes I made while learning to make content for {OR}.  As a result, it may not be the most organized or useful document on the subjects discussed within it but it is primarily aimed at filling a void in the documentation set for {OR}.  This document is FREE and Open Source.  It will ultimately live on in the GITHUB repository.  This means that others are welcome to fork a copy, edit it to add sections or fix errors if desired.  The author does not claim unrealistic ownership of the ideas and concepts contained within.
+As the title implies, this document is based on a collection notes I made while learning to make content for {OR}.  As a result, it may not be the most organized or useful document on the subjects discussed within it but it is primarily aimed at filling a void in the documentation set for {OR}.  This document is FREE and Open Source.  It will ultimately live on in the GITHUB repository.  This means that others are welcome to fork a copy, edit it to add sections or fix errors if desired.  The author does not claim unrealistic ownership of the ideas and concepts contained within.  In fact, I struggle to consider myself the author of this manual. Of course, I am entirely responsible for its content, but I gathered, reorganized and rephrased content coming from many different sources. 
 
 Due to the way this document originated, it may seem to jump around and be repetetive at times. My apologies in advance if this bothers you but if you are so inspired, you are welcome to help fixing any errors, problems or omissions.
 
