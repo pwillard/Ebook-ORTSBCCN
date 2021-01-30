@@ -120,6 +120,8 @@ Blender will default to using your `DOCUMENTS` folder for Models and your `%APPD
 [TIP]
 APP DATA is normally a hidden folder in your windows file explorer.  You can reach the folder from a command prompt by typing `cd %appdata%`
 
+Video Link: https://youtu.be/ad4vTwCGodo
+
 
 === Setting up our Blender environment
 
@@ -151,7 +153,7 @@ So now we will go through the steps of customizing our PREFERENCES settings.  Th
 ** Extra (CURVE/MESH) Objects
 
 * `ADD-ONS` (3rd-Party - free)
-**  Blender28toMSTS - S file Export (MSTS ORTS - V4.3)
+**  Blender28toMSTS - S file Export (MSTS ORTS - V4.3) See the video:footnote:[Youtube https://youtu.be/j3AVw7s9qoA]
 **  Briage28 - Train/Rail Simulator Export (Dovetail Games)
 **  mifthtools - Extra features, manual installation needed nd this is an optional add on.
 ** 	Powersave - Available from: https://github.com/bonjorno7/PowerSave auto-save your blend files.
@@ -190,8 +192,11 @@ Next, will will make changes to the header and properties panels near the top an
 
 
 
-
 <<<
+
+== Content Creation Overview
+
+The information presented is not about modeling with Blender, it is about how to create items that comply with the simulator requirements and guidelines. 
 
 === Engine/Wagon Model hierarchy
 
