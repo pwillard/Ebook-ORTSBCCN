@@ -90,7 +90,7 @@ As I said, BLENDER isn't the easiest program to learn, but even a first-week nov
 Pressing kbd:[GG] as in pressing the kbd:[G] key twice, will allow you to SLIDE move along an edge.
 
 [TIP]
-When scaling with the mouse, the closer your mouse is to the object, the more impact the mouse has on scale movement.  If you want more control, begin the kdb:[S] operation with the mouse cursor further way from the selected item's origin.
+When scaling with the mouse, the closer your mouse is to the object, the more impact the mouse has on scale movement.  If you want more control, begin the kbd:[S] operation with the mouse cursor further way from the selected item's origin.
 
 
 These keys can manipulate basic objects. By using these keys and following them with additional commands like kbd:[X], kbd:[Y], or kbd:[Z] 
