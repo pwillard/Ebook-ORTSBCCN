@@ -155,7 +155,7 @@ image:images/Arrow.JPG[align="center", caption="Box Select"]
 
 You can move around using the mouse with the screen gizmos in the upper right.  The multi-color Axis tool will allow you to drag to a new orientation, the Magnifier is for Zoom, the Hand is for panning , the Camera icon will toggle the Camera view and the Plane icon will toggle between Perspective and Orthographic.  These on screen items are helpful when using a laptop that does not have a keypad. 
 
-image:images/screenGismoJPG.JPG[align=center]
+image:images/screenGismoJPG.JPG[]
 *ON SCREEN GIZMO*
 
 
@@ -169,7 +169,7 @@ Use the kbd:[TAB] key to switch modes.
 
 `OBJECT MODE`:: With `OBJECT MODE`, which is the default mode in BLENDER, actions are available for all object types since this mode is dedicated to Object data-block editing (e.g. position, rotation, size) as well as Modifiers.  Edges, Faces and Vertices cannot be modified in this mode.
 
-image:images/objectmode.PNG[align=center]
+image:images/objectmode.PNG[]
 
 In this mode, you can select individual objects that make up your design so thay can be further manipulated in `EDIT MODE`.
 
@@ -180,7 +180,7 @@ EDIT MODE:: The *selected* item in `OBJECT MODE` becomes the focused object when
 [TIP]
 In `EDIT MODE`, the object selected will show Vertices, Edges and Faces.  Selected edges, vertices or faces will adopt a highlight color when selected. Also notice the larger tool set on the left compared to `OBJECT MODE`.
 
-image:images/editmode.PNG[align=center]
+image:images/editmode.PNG[]
 
 [NOTE]
 There are 3 sub-modes in `EDIT MODE`; kbd:[1] Vertex Edit, kbd:[2] Edge Edit and kbd:[3] Face Edit. 
@@ -193,7 +193,7 @@ There are 3 sub-modes in `EDIT MODE`; kbd:[1] Vertex Edit, kbd:[2] Edge Edit and
 There are now thousands of YouTube videos about modeling in in BLENDER if any of these concepts mentioned here are not clear.
 
 ==== EXTRUDE
-image:images/extrusion.jpg[align=center]
+image:images/extrusion.jpg[]
 
 kbd:[E] Key:: The official definition of the extrusion operation is: The `extrusion` operation duplicates vertices, while keeping the new geometry connected with the original vertices. Vertices are turned into edges and edges will form faces.
 
@@ -214,11 +214,11 @@ kbd:[I] Key:: This tool takes the currently selected faces and creates an inset 
 
 *  Select the faces to inset:
 
-image:images/inseta.png[align=center]
+image:images/inseta.png[]
 
 * Press I to inset:
 
-image:images/insetb.png[align=center]
+image:images/insetb.png[]
 
 [TIP]
 When you use inset and the inset amount appears to be unevenly applied, you likely have not applied your scale transformations.  In other words, your scale values in the object transformation numbers panel are not all set to 1.00.  You correct this in `OBJECT MODE` by selecting `OBJECT->APPLY->SCALE` from the top menu. 
@@ -234,7 +234,7 @@ kbd:[CTRL,B] Key Combination:: The Bevel Edges tool works only on selected edges
 
 The Bevel tool smooths the edges and/or “corners” (vertices) by replacing them with faces making smooth profiles with a specified number of segments.
 
-image:images/bevel.png[align=center]
+image:images/bevel.png[]
 
 [NOTE]
 A Bevel on a FLAT PLANE will create an INSET.
@@ -253,7 +253,7 @@ You can also use the options box that shows up in the bottom left of the screen 
 
 
 
-image:images/loopcut.png[align=center]
+image:images/loopcut.png[]
 
 <<<
 
@@ -323,7 +323,7 @@ image:images/JB0.JPG[]
 * Adjust cube length to 12', (3.6576m) by using kbd:[G] kbd:[Y] and dragging, or by manually entering 3.6576 in the Y Dimension field 
 * Switch to front view and adjust `X` width to 32" (0.8128m) kbd:[Keypad 1] then kbd:[S] kbd:[X] and kbd:[DRAG] or enter .8128 in the `X` Dimension field. 
 
-image:images/JB1.JPG[align=center]
+image:images/JB1.JPG[]
 
 
 * With the `CUBE` still selected, switch to EDIT MODE using the kbd:[TAB] KEY. 
@@ -338,7 +338,7 @@ We are doing this without worrying about EXACT dimensions just to keep things si
 [TIP]
 Drag the mouse around to get it to snap to a vertical loop.
 
-image:images/JB2.JPG[align=center]
+image:images/JB2.JPG[]
 
 * Go back to `SELECT` Mode by clicking the Arrow icon if its not already selected since we are done with `LOOP CUTS` for now.
 
@@ -355,18 +355,18 @@ In these next steps,  we will be using Vertex EDIT MODE. From the front view,  w
 [NOTE] 
 You can also select the vertex mode with the screen menu.  Its the small square icon with a dot on one side next to the view tab. 
 
-image:images/VEF.png[align=center]
+image:images/VEF.png[]
 
 
 * Now use `BOX` select on the vertices on the left side with your mouse. (They will change to the SELECTED color)
 
-image:images/oops1.JPG[align=center]
+image:images/oops1.JPG[]
 
 * Press kbd:[X] for Delete and in the pop-up window, choose to `Delete - Vertices`.  BLENDER will delete the selected vertices. Wait... What just happened?
 
 It didn't perform a delete?   Oh my, yes it did, but not what we wanted!
 
-image:images/oops2.jpg[align=center]
+image:images/oops2.jpg[]
 
 We are in ViewPort "Shading Solid" Mode.
 
@@ -377,35 +377,35 @@ Do you understand what happened?  We only selected the FRONT facing vertices! We
 
 * Now, `BOX` select the vertices on the left side, like before.  (They will change to the SELECTED color) and  press kbd:[X] and choose to Delete Vertices.  BLENDER will delete the selected vertices. Now, you will finally only see 1/2 of your object remaining.
 
-image:images/MIRROR1.JPG[align=center]
+image:images/MIRROR1.JPG[]
 
 
 * kbd:[TAB] back to `OBJECT MODE` and with the current OBJECT selected, locate the `WRENCH` icon on the right panel on the screen. 
 
 * From the `Add Modifier` dropdown menu, select `MIRROR` Modifier. You should see the section we deleted above come back into view since the `MIRROR` is using the `X` axis to mirror of the original object by default.  (See the Check Box that is already checked)
 
-image:images/JB3.JPG[align=center]
+image:images/JB3.JPG[]
 
 * `TAB` back to `EDIT MODE`.  Note that you should now only see Vertex dots on the right side of the object, but you see the full shape.  It's mirrored now, and whatever you do on the right side gets mirrored to the left side.
 
-image:images/JB35.JPG[align=center]
+image:images/JB35.JPG[]
 
 * Select the top 2 right side vertices and press kbd:[G] kbd:[X] to shift them inward until you get about a 55 degree angle.
 
 * Repeat the same process with just the top right vertices until you get an 84 degree angle.
 
-image:images/JB4.JPG[align=center]
+image:images/JB4.JPG[]
 
 So now we have a basic shape of the concrete barrier.  The next steps will complete the shape.
 
 [NOTE]
 We can go back to ViewPort SOLID mode now.
 
-image:images/Barrier-300x225.jpg[align=center]
+image:images/Barrier-300x225.jpg[]
 
 If we look at the barrier closely, we will see that the edges are not sharp.  They are beveled. So now we will use the Bevel tool. For this next operation, we no longer need the Mirror Modifier so we can Apply it.   
 
-image:images/SharpEdges.JPG[align=center]
+image:images/SharpEdges.JPG[]
 
 
 * Go back to `OBJECT` mode, select the `WRENCH` Icon and with our object selected, click `APPLY`. The modifier will apply and go away.
@@ -422,7 +422,7 @@ When you apply a modifier, you lose the ability to adjust it.  Prior to applying
 [NOTE]
 This creates a selection group. If you left click an edge again without holding kbd:[SHIFT], you will lose the selection group and will need to reselect all the desired edges again. 
 
-image:images/outside.JPG[align=center]
+image:images/outside.JPG[]
 
 
 * Press kbd:[CTRL,B] to use the BEVEL TOOL. and adjust the offset to be about 0.02 and Left Click the mouse to accept.
@@ -430,11 +430,11 @@ image:images/outside.JPG[align=center]
 [NOTE]
 I am aware that I could have left the modifier on during the BEVEL operation.  I did not this time because it is good practice to rotate around a model and select specific edges manually.
 
-image:images/ConcreteBevel.JPG[align=center]
+image:images/ConcreteBevel.JPG[]
 
 Here is what we have now after the bevel operation.
 
-image:images/BevelResult.JPG[align=center]
+image:images/BevelResult.JPG[]
 
 If we look at the object back in OBJECT MODE with the Solid Viewport Shader, we see this. 
 
@@ -472,7 +472,7 @@ If nothing happens in the left `UV EDIT` window, you probably didn't have everyt
 
 * Now, before you do anything else, locate the `UNWRAP`  tab at the bottom of the screen and adjust the margin to be a value of 0.05.  The default 0.001 is just too small for our needs. This will give a greater separation between te generated UV Islands.
 
-image:images/unwrap0.png[align=center]
+image:images/unwrap0.png[]
 
 * Give your model a new material. In the `PROPERTIES` window on the right side, locate the sphere with a grid inside it near the bottom of the side menu.  That is the material panel. 
 
@@ -485,7 +485,7 @@ image:images/unwrap0.png[align=center]
 [NOTE]
 The GITHUB page has a DEMO1.ZIP file that contains the concrete texture I used.
 
-image:images/UVWRAP1.JPG[align=center]
+image:images/UVWRAP1.JPG[]
 
 * The task now is to arrange the UV ISLANDS (Using the standard tools kbd:[G] kbd:[X],  kbd:[G] kbd:[Y] keys as well as resizing with kbd:[S] and rotate with kbd:[R] )  You can temporarily shift islands outside the 1x1 UV SQUARE, but by the end of this process, all of the islands will be back within the texture space.  
 
@@ -501,7 +501,7 @@ When editing UV Coordinates, the X axis is left-right and the Y axis is up-down.
 What I ended up with.  Yours will likely be quite different based on what you marked as seams and how you laid out the islands.
 
 
-image:images/UVWRAP2.JPG[align=center]
+image:images/UVWRAP2.JPG[]
 
 * Now we can return to the main modeling workspace and then change the viewport shader to Material Preview mode.  
 
@@ -510,7 +510,7 @@ image:images/lookdev.jpg[]
 
 We now see the object with the material applied.
 
-image:images/UVWRAP3.JPG[align=center]
+image:images/UVWRAP3.JPG[]
 
 This model is now ready for the MSTS exporter.
 
@@ -585,7 +585,7 @@ A free and rather easy way of creating a collection of re-usable parts is to *CO
 * The copied object(s) will be placed in your new blend file. Copy as many objects into this file as you need. It is best to avoid overlapping them. 
 
 
-image:images/lib1.jpg[align=center]
+image:images/lib1.jpg[]
 
 * Save it with a name that refers to the new object library you are making. Example: `Library_Freight.blend`
 
@@ -602,11 +602,11 @@ Choose append ans select `THUMBNAIL` view you will see file menu.
 
 Choose the library file you saved
 
-image:images/lib3.jpg[align=center]
+image:images/lib3.jpg[]
 
 Choose OBJECT folder and you will see ICONS of the parts in the file. Select one and it will be appended to your current file.
 
-image:images/lib4.jpg[align=center]
+image:images/lib4.jpg[]
 
 When using this technique for an object library or multiple object libraries, you should to consider your file structure because when you build up a repository of `.blend` files it can become confusing when searching for a specific item later on. Using a well planned and organized file structure is better than having files all over the place or all in a single bucket.  
 

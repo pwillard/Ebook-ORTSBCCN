@@ -181,7 +181,7 @@ example:
   # FIXME reenable margin bottom once margin collapsing is implemented
   padding: [$vertical_rhythm, $horizontal_rhythm, 0, $horizontal_rhythm]
 image:
-  align: left
+  align: center
 prose:
   margin_top: 0
   margin_bottom: $vertical_rhythm
