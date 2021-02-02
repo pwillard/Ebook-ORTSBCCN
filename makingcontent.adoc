@@ -157,6 +157,7 @@ So now we will go through the steps of customizing our PREFERENCES settings.  Th
 **  Briage28 - Train/Rail Simulator Export (Dovetail Games)
 **  mifthtools - Extra features, manual installation needed nd this is an optional add on.
 ** 	Powersave - Available from: https://github.com/bonjorno7/PowerSave auto-save your blend files.
+**  SimpleAssetManager - Available from: https://gitlab.com/tibicen/simple-asset-manager  Manage Assets (Trucks, couplers, common parts, etc)
 
 Close out the `EDIT->PREFERENCES` menu. By default, it automatically saves your changes.
 
@@ -165,12 +166,14 @@ Next, will will make changes to the header and properties panels near the top an
 * Gizmo settings
 ** In the Gismo Drop Down menu, under object gizmos, enable MOVE with a checkbox. (Look for an arc with an arrow icon)
 
-* Shading settings
+* Shading settings  
 ** Under SOLID VIEWPORT SHADING (Solid Circle Icon and use pulldown on the right), change the following:
 *** Add Check-mark next to shadow
 *** Add Check-mark nest to cavity
+These steps help to make things more visible while editing.
 
-* Properties Panels in the lower right
+
+* Properties Panels in the lower right  - optional steps
 ** `Render Properties`
 *** Render Engine - EEVEE
 **** RENDER 200 SAMPLES
@@ -188,6 +191,211 @@ Next, will will make changes to the header and properties panels near the top an
 **** CTRL+T Add Mapping Node, choose HDRI (I use abandoned slipway from hdrihaven)
 
 `FILE->DEFAULTS->SAVE STARTUP FILE-->confirm`
+
+
+[TIP]
+The Simple Asset Manager (SAM) add-on is helpful because you can drop the various pre-made objects like Trucks, Couplers, Chains, Brake wheels, etc. You tell SAM where your library of assets is and it will look there for things to append to your current project.  INitially, you want to have SAM render images of your items so they show up in the selection windows.  You use different folders where your items are stored to create categories. 
+
+=== Folder structure
+
+image::images/folder1.JPG[]
+
+image::images/folder2.JPG[]
+
+
+The layout of your project development folder is completely personal depending on how you organize your work.  I'll share what I currently use as an example.
+
+[NOTE]
+I snipped a lot of details out for brevity and left some in as examples.  EXPORT is for renders and such, IMPORT is for things I'm converting from 3DCANVAS and TSM. PROJECTS, should be obvious, but I use prefixes and a naming standard to make things easy to find. I use SHARED folder for things that all projects will share, like Asset Libraries and common textures.
+
+----
+BLENDER 
+----Completed
+----Export
+-----bakes
+----Ideas
+----Import
+-----Texture
+-----DAE
+-----DDS
+----Projects
+--   Project.txt
+-----eng-50ft-DE-RS1325-CIM
+---   readme.md
+
+------final
+---       empty.txt
+     
+------mesh
+---       Flexicoil.DAE
+---       grill.dae
+---       rs1325-7.blend
+
+      
+------objects
+---       RS1325.dae
+    
+------reference
+---       back.jpg
+---       EMD_Blomberg_B_Truck_Drawing.jpg
+---       front.jpg
+---       rs1325-2.jpg
+---       RS1325-3.jpg
+---       rs1325-4.jpg
+---       RS1325-blueprint.jpg
+---       RS1325-Blueprint2.jpg
+---       RS1325-image.jpg
+---       RS1325.jpg
+---       RS1325.png
+---       side.jpg
+     
+------textures
+---       empty.txt
+     
+------tmp
+--           RENDER.png
+        
+-----eng-58ft-DE-AS415-BLW-EMD
+--       415.blend
+--       415.blend1
+--       as415-1-cnw.tga
+--       AS415-2-cnw.tga
+--       AS415-3-cnw.tga
+--       AS415M.blend
+--       as415m.BMP
+--       blade.bmp
+--       blade.tga
+--       Fan.ace
+--       FAN.bmp
+--       FAN.tga
+--       FAN1.bmp
+--       gray.bmp
+--       hood.tga
+--       tkw-as415m-CURRENT.3dc
+--       WHEEL2.TGA   
+
+-----frt-38ft-TM-MiniWhale-GATX
+------final
+------mesh
+----   whale.blend   
+-------old
+------objects
+------reference
+------textures
+----   CSXT.BMP
+----   Csxt.psp
+----   CSXT2.PSP
+----   CSXT2.TGA
+----   grate.tga
+----   GRAY.BMP
+----   MASTER.bmp
+----   master.psp
+----   part.tga
+----   parts.bmp
+----   parts.psp
+----   parts.tga
+----   parts2.psp
+  
+-------dds
+------tmp
+     
+-----scn-12ft-JerseyBarrier
+---   concrete-wall.jpg
+---   concretewall.ace
+---   JerseyBarrier.blend
+---   JerseyBarrier.zip
+
+------Backups
+---       JerseyBarrier8.blend
+  
+------Export
+---       barrier.jpg
+---       barrier.PNG
+---       concrete-wall.ace
+---       JerseyBarrier.s
+---       JerseyBarrier.sd
+---       JerseyBarrier.zip
+---       readme.txt
+    
+------Model
+--           JerseyBarrier.blend
+         
+-----scn-40ft-U-IsoContainer
+--       ShippingContainer2.blend
+--       SHIPPINGSIDE.PNG
+--       SHIPPINGSOOR.PNG
+--       SHIPPINGTOP.PNG
+--       SNIPPINGEND.PNG
+      
+-----scn-45ft-trailer
+--       45FT_PIGGY.blend
+--       piggy.png
+--       
+-----scn-53ft-trailer
+-           53FT_PIGGY.blend
+-           piggy.png
+          
+----Scripts
+--   Cycles.Setup.py.blend
+--   FixUvMap.py
+--   makerect.py
+--   piltest.py
+--   PythonTemplate1.blend
+--   RemoveMaterials.py
+--   removeUnusedMaterials.py
+  
+-----OLD
+--       fixuvmaps.py
+--       removeallmaterial.py
+--       RenameUVMAP.py.blend
+--       UVMAPRENAME.py
+         
+----Shared
+-----HDRI
+--       abandoned_slipway_4k.hdr
+--       abandoned_slipway_8k.hdr
+     
+-----LIBRARY
+------TRUCKS
+--       -   A3_50T_PLAIN.zip
+--       -   
+--       ----100T
+--       -       100t.blend
+--       -       100t.png
+--       -       
+--       ----A3_50T_PLAIN
+--               readme.txt
+--               TRUCKS_50T_T.BMP
+--               TRUCK_50T_A3_PLAIN.blend
+--               TRUCK_50T_A3_PLAIN.png
+             
+-----REFERENCE
+---   hokx111587.jpg
+---   hokx111601a.jpg
+---   hokx111601b.jpg
+---   hokx111601c.jpg
+---   hokx111601d.jpg
+---   hokx111601e.jpg
+---   hokx111601g.jpg
+
+           
+-----SETUPS
+-----TEXTURE
+-           26056070975_9af1db14c4_o.jpg
+-           biobg.bmp
+-           blue - light.jpg
+-           blue.jpg
+-           bluestructure.bmp
+-           blugray.bmp
+-           blustonecobs.jpg
+-           brown - dark.jpg
+-           brown - light.jpg
+-           brown.jpg
+-           brushed_brown.bmp
+-           brushed_metal.bmp
+
+
+----
 
 
 

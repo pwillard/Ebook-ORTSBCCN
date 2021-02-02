@@ -615,7 +615,7 @@ It might mean that there are some redundancies in your files in the long run, bu
 Another somewhat flexible option is to export your selected parts as an FBX or Collada (DAE) files.  These can be imported later with a `File-Import` process but it also means that you have something that can be imported to other applications as well.  The main difference with this option is that these are no longer native `.blend` files and there could be some mangling of contents when imported back into BLENDER.
 
 [NOTE]
-A file structure that I often use for projects is shown below:
+A file structure that I often use for individual project folders is shown below:
 
 ----
 <project>
@@ -628,7 +628,7 @@ A file structure that I often use for projects is shown below:
 ----
 
 [TIP]
-I would store any object library collections created with the COPY/PASTE method under `\objects` folder.  There is a handy tool available https://www.dcmembers.com/skwire/download/text-2-folders/  "Text2folders", that makes creating this consistent folder structure easy.  Just replace the text "<projects>" with the name of your current project and pass this text file to the "Text2folders" application and it will create all the folders for you.  It can even do sub-folders. 
+I would store any `local` object library collections created with the COPY/PASTE method under `\objects` folder.  There is a handy tool available https://www.dcmembers.com/skwire/download/text-2-folders/  "Text2folders", that makes creating this consistent folder structure easy.  Just replace the text "<projects>" with the name of your current project and pass this text file to the "Text2folders" application and it will create all the folders for you.  It can even do sub-folders. 
 
 [TIP]
 Keeping the Part Library and Texture files available under the current project structure is helpful if you share content, provided you have the available disk space to allow duplicates in multiple project folders.  It also allows for small tweaks specific to a project.
